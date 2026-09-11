@@ -111,7 +111,7 @@
         .hidden-message {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 1.2s ease-in-out, opacity 1s ease-in-out;
+            transition: max-height 1.5s ease-in-out, opacity 1s ease-in-out;
             opacity: 0;
             margin-top: 10px;
             text-align: left;
@@ -123,7 +123,7 @@
         }
 
         .hidden-message.show {
-            max-height: 1200px;
+            max-height: 2500px;
             opacity: 1;
         }
 
@@ -132,9 +132,14 @@
             text-align: right;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #d63384;
-            font-weight: 500;
+            font-weight: 600;
+            font-size: 1.15rem;
             margin-bottom: 25px;
             line-height: 1.8;
+            background: rgba(255, 230, 240, 0.5);
+            padding: 15px;
+            border-radius: 12px;
+            border-right: 4px solid #d63384;
         }
 
         .signature {
@@ -160,7 +165,9 @@
         <button class="envelope-btn" onclick="revealMessage()">Tap to Open 💌</button>
 
         <div class="hidden-message" id="message">
-            <p class="arabic-text">ازيك يا شاهي يا حبيبتي كل سنه وانت طيبه يا روحي و عقبال مليون سنه و كل سنه واحنا سوا و مع بعض دايما و مبسوطين ربنا يخليكي ليا و تفضلي جنبي دايما ❤️</p>
+            <div class="arabic-text">
+                ازيك يا شاهي يا حبيبتي كل سنه وانت طيبه يا روحي و عقبال مليون سنه و كل سنه واحنا سوا و مع بعض دايما و مبسوطين ربنا يخليكي ليا و تفضلي جنبي دايما ❤️
+            </div>
             
             <p>I know it is kinda weird, but I'd like to make a cute memory between us and a "bit" creative, something that we can look back to if we are ever in a bad situation, and always remember that I'll always be by your side.</p>
             <br>
